@@ -17,6 +17,7 @@ class DirectorsController < ApplicationController
     @director.name = params["name"]
     @director.bio = params["bio"]
     @director.image_url = params["image_url"]
+    @director.id = 1
 
     @director.save
 
